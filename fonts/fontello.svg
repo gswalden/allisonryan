@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="briefcase" unicode="&#xe803;" d="m456 326l0-100-456 0q8 226 10 292 4 108 100 108l160 0q16 26 37 67t23 45q14 26 23 32t37 6l222 0q26 0 36-7t22-31q18-32 60-112l160 0q96 0 100-108l10-292-454 0 0 100-90 0z m-74 354l-28-54 292 0-28 54q-14 26-42 26l-152 0q-28 0-42-26z m164-604l0 100 430 0q-6-88-10-166-6-84-90-84l-750 0q-90 0-90 84l-10 166 430 0 0-100 90 0z" horiz-adv-x="1000" />
+<glyph glyph-name="location" unicode="&#xe804;" d="m250 750q104 0 177-73t73-177q0-106-62-243t-126-223l-62-84q-10 12-27 35t-60 89-76 130-60 147-27 149q0 104 73 177t177 73z m0-388q56 0 96 40t40 96-40 95-96 39-95-39-39-95 39-96 95-40z" horiz-adv-x="500" />
+<glyph glyph-name="comment" unicode="&#xe805;" d="m700 700q42 0 71-29t29-71l0-350q0-40-29-70t-71-30l-200 0 0-150-200 150-200 0q-40 0-70 30t-30 70l0 350q0 42 30 71t70 29l600 0z" horiz-adv-x="800" />
+</font>
+</defs>
+</svg>
