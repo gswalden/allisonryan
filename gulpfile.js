@@ -60,6 +60,6 @@ gulp.task('bs-reload', function () {
 // Default task to be run with `gulp`
 gulp.task('default', ['jade', 'less', 'browser-sync'], function () {
     gulp.watch('css/src/*.less', ['less']);
-    gulp.watch('jade/index.jade', ['jade']);
+    gulp.watch('jade/*.jade', ['jade']);
     gulp.watch('js/src/*.js', ['js']);
 });
