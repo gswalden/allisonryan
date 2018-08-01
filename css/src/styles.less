@@ -76,21 +76,30 @@ h2 {
 
 ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 2.5rem;
 
-    @media @mobile {
-        font-size: 2rem;
+    .hero & {
+        margin: 0;
+        padding: 0;
+        font-size: 2.5rem;
+
+        @media @mobile {
+            font-size: 2rem;
+        }
+    }
+
+    .text & {
+        list-style-type: square;
     }
 }
 
 li {
-    display: inline-block;
-    margin-left: @icon-spacing;
+    .hero & {
+        display: inline-block;
+        margin-left: @icon-spacing;
 
-    &:first-of-type {
-        margin-left: 0;
+        &:first-of-type {
+            margin-left: 0;
+        }
     }
 }
 
@@ -111,7 +120,7 @@ li {
     font-size: 3.2rem;
     line-height: 1.5;
     padding-bottom: 2rem;
-    
+
     @media @mobile {
         font-size: 2.5rem;
     }
@@ -120,18 +129,21 @@ li {
 .my-pic {
     display: block;
     width: 200px;
-    margin: 0 auto;
+    margin: 4rem auto 0;
     border-radius: 50%;
     border: 2px solid #333;
+    @media @mobile {
+        margin-top: 2rem;
+    }
 }
 
 p {
     margin: 0;
-    padding: 4rem 0 8rem;
+    padding: 4rem 0 0;
     text-align: justify;
 
     @media @mobile {
-        padding: 2rem 0 4rem;
+        padding: 2rem 0 0;
     }
 }
 

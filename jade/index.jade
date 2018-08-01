@@ -2,12 +2,21 @@ doctype html
 html(lang='en')
   include head.jade
   body
-    
+
     .hero
       .hero-img.full
       .overlay.full
         .hero-text
-          h1 Champion of Efficiency,#[br] Creative Producer,#[br] Cross-Team Whisperer,#[br] Cook.
+          h1
+            | Champion of Efficiency,
+            br
+            | Creative Producer,
+            br
+            | Cross-Team Whisperer,
+            br
+            | Cook,
+            br
+            | Designer
           h2 Allison E Ryan
           ul
             li
@@ -20,12 +29,14 @@ html(lang='en')
             //-   i.icon-briefcase
             //-   a(href='https://www.birchbox.com', target='_blank') Birchbox
     .text
-      p.
-        Hi! Thanks for coming by. You may have 3D printed with me at #[a(href='https://www.makerbot.com', target='_blank') MakerBot],
-        or maybe tried beauty samples with me at #[a(href='https://www.birchbox.com', target='_blank') Birchbox].
-        Or discussed space / tech / documentaries / dinosaurs with me at an event.
-        In any case, keep in #[a(href='https://www.linkedin.com/in/ambitiousallisonryan', target='_blank') touch]!
-        Also, #[a(href='https://www.gsw.nyc', target='_blank') this guy]. #[i.fa.fa-heart]
-      img(src='/img/allison-ryan2.jpg' alt='Allison Ryan picture' class='my-pic')
+      p
+        | Hi! Thanks for coming by. Maybe you saw my #[a(href='https://www.instagram.com/p/Bk3tjgLlj33/?taken-by=zebeeie', target='_blank') design work]? Maybe we discussed #[a(href='https://www.linkedin.com/in/ambitiousallisonryan', target='_blank') operations] or tech together at an event? Or maybe you’ve tried my #[a(href='https://www.instagram.com/p/8bfcLaCr_y/?taken-by=givemesnacks', target='_blank') pizza]! In any case, keep in #[a(href='https://www.linkedin.com/in/ambitiousallisonryan', target='_blank') touch] and feel free to reach out if you need:
+        ul
+          li Small space design planning
+          li Pizza recipes
+          li Workflow design / optimization
+          li Business analysis
+        | Also, check out #[a(href='https://www.gsw.nyc', target='_blank') this guy].
+      img.my-pic(src='/img/allison-ryan2.jpg' alt='Allison Ryan picture')
 
     include scripts.jade
